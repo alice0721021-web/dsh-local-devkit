@@ -1,0 +1,59 @@
+{
+  "name": "dsh-local-devkit",
+  "version": "0.1.0",
+  "description": "Local development facts for DeepSeek Harness: environment/health probes, git tools, write-time snapshots and project checks.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "src/**/*.mjs",
+    "scripts/*.mjs",
+    "test/*.test.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "install:profile": "node scripts/install.mjs"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.1-rc.3 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "git",
+    "checkpoint",
+    "environment-probe",
+    "health-check",
+    "project-check"
+  ],
+  "author": "STARDUSTLC666",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STARDUSTLC666/dsh-local-devkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/STARDUSTLC666/dsh-local-devkit/issues"
+  },
+  "homepage": "https://github.com/STARDUSTLC666/dsh-local-devkit#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@11.7.0"
+}

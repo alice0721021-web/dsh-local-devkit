@@ -1,0 +1,11 @@
+# dsh-local-devkit：环境探测、健康检查、git 工具与写入前快照。
+# 本补丁按 id 覆盖；用户可在自己 profile 的 cordis.patch.yml 里覆盖 config。
+#
+# - insert:
+#     - id: devkit
+#       name: dsh-local-devkit
+#       config: {}
+- insert:
+    - id: devkit
+      name: dsh-local-devkit
+      config: {}
