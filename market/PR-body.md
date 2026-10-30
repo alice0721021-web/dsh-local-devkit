@@ -10,7 +10,7 @@
 
 ### 清单
 
-- [x] public 仓库，已加 `dsh-plugin` topic
+- [x] public 仓库（`alice0721021-web/dsh-local-devkit`），已加 `dsh-plugin` topic
 - [x] `dsh.bundle.patch` 指向 `cordis.patch.yml`
 - [x] `engines.dsh`: `>=0.2.1-rc.3 <0.3.0`
 - [x] 41 个单元与集成测试（含输出 schema 校验）

@@ -42,16 +42,16 @@
     "health-check",
     "project-check"
   ],
-  "author": "STARDUSTLC666",
+  "author": "alice0721021-web",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/STARDUSTLC666/dsh-local-devkit.git"
+    "url": "git+https://github.com/alice0721021-web/dsh-local-devkit.git"
   },
   "bugs": {
-    "url": "https://github.com/STARDUSTLC666/dsh-local-devkit/issues"
+    "url": "https://github.com/alice0721021-web/dsh-local-devkit/issues"
   },
-  "homepage": "https://github.com/STARDUSTLC666/dsh-local-devkit#readme",
+  "homepage": "https://github.com/alice0721021-web/dsh-local-devkit#readme",
   "publishConfig": {
     "access": "public"
   },

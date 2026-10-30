@@ -1,5 +1,5 @@
-url: https://github.com/STARDUSTLC666/dsh-local-devkit
-name: STARDUSTLC666/dsh-local-devkit
+url: https://github.com/alice0721021-web/dsh-local-devkit
+name: alice0721021-web/dsh-local-devkit
 category: dev
 description:
   en: 'Local development facts for Harness: environment and runtime-health probes, git status/diff/log/commit, write-time snapshots with version-by-version restore, and project checks for Node, Python and Go.'
